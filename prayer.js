@@ -11,7 +11,7 @@ subBTN.addEventListener("click", ()=>{
 
     let nameOfCity = userinput.value 
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${nameOfCity}&appid=56f59d26f82af4ee81cbc6068dc9100d`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${nameOfCity}&appid=34a0a94f9a82cb10f45a4407fac66bf0`)
     .then(res=> res.json())
     .then(data => {
 
