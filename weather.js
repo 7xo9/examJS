@@ -10,11 +10,11 @@ let dateTrans = document.getElementById("dateTrans")
 let melady = document.getElementById("melady")
 
 function getdata(){
-    fetch("https://api.aladhan.com/v1/calendarByCity/2017/4?city=Riyadh&country=SuadiArabia&method=4")
+    fetch("https://api.aladhan.com/v1/calendarByCity/2023/11?city=Riyadh&country=SuadiArabia&method=4")
     .then(res => res.json())
     .then(data => {
 
-        let Firstvalue = data.data[0]
+        let Firstvalue = data.data[19]
         date.innerText = Firstvalue.date.gregorian.date;
 
         dateTrans.addEventListener("click",()=>{
@@ -37,7 +37,7 @@ function getdata(){
         
         
         let x = Firstvalue.timings
-        
+        console.log("W");
         Fajer.innerText = `Fajer: ${x.Fajr}`
         Dhuhr.innerText = `Dhuhr: ${x.Dhuhr}`
         Asr.innerText = `Asr: ${x.Asr}`

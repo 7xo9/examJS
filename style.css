@@ -1,11 +1,11 @@
 .bg{
     width: auto;
-    height: 100vh;
+    height: 90vh;
     background-color: rgba(0, 0, 0, 0.894);
 }
 
 *{
-    overflow: hidden;
+    
 }
 
 .cont{
