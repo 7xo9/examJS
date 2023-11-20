@@ -10,7 +10,7 @@ let dateTrans = document.getElementById("dateTrans")
 let melady = document.getElementById("melady")
 
 function getdata(){
-    fetch("https://api.aladhan.com/v1/calendarByCity/2017/4?city=Riyadh&country=Suadi Arabia&method=4")
+    fetch("https://api.aladhan.com/v1/calendarByCity/2017/4?city=Riyadh&country=SuadiArabia&method=4")
     .then(res => res.json())
     .then(data => {
 
