@@ -1,0 +1,152 @@
+.bg{
+    width: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.894);
+}
+
+*{
+    overflow: hidden;
+}
+
+.cont{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputt{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont h1{
+    font-size: 1.5rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0px
+}
+
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.btns button{
+    width: 30vw;
+}
+
+.btns button:hover{
+    background-color: gray;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.bgg{
+    background-image:        linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.7)
+      ), url(mosq.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+   
+}
+.lab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+}
+
+.pcard{
+    background-image: url(mosq.avif);
+    width: 30vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+   
+}
+
+.pcard:hover{
+    filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+
+}
+
+
+
+.wcard{
+    background-image: url(we.jpeg);
+    width: 30vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+   
+}
+
+.wcard:hover{
+    filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+
+}
+
+.pbtn{
+    background-image: url(we.jpeg);
+}
+
+.bggw{
+    background-image:        linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.7)
+      ), url(pexels-pixabay-209831.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+   
+}
+
+.winfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+
+    .cont{
+        
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
