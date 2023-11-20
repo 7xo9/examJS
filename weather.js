@@ -9,6 +9,13 @@ let Isha = document.getElementById("Isha")
 let dateTrans = document.getElementById("dateTrans")
 let melady = document.getElementById("melady")
 
+
+let local = localStorage.getItem("Name")
+
+if (!local){
+    window.location.href = "index.html"
+}
+
 function getdata(){
     fetch("https://api.aladhan.com/v1/calendarByCity/2023/11?city=Riyadh&country=SuadiArabia&method=4")
     .then(res => res.json())

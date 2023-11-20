@@ -7,6 +7,12 @@ let lonn = document.getElementById("lonn")
 let userinput = document.getElementById("userinput")
 let subBTN = document.getElementById("subBTN")
 
+let local = localStorage.getItem("Name")
+
+if (!local){
+    window.location.href = "index.html"
+}
+
 subBTN.addEventListener("click", ()=>{
 
     let nameOfCity = userinput.value 
