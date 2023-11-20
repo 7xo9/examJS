@@ -37,7 +37,7 @@ function getdata(){
         
         
         let x = Firstvalue.timings
-        console.log(x);
+        
         Fajer.innerText = `Fajer: ${x.Fajr}`
         Dhuhr.innerText = `Dhuhr: ${x.Dhuhr}`
         Asr.innerText = `Asr: ${x.Asr}`
